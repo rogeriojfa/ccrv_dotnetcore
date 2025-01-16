@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "omnisharp-server-binaries": "^0.1.9"
+  }
+}
