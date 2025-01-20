@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using CCRV.API.Data;
 using CCRV.API.Models;
-using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace CCRV.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LancamentoController : ControllerBase
+    public class LancamentosController : ControllerBase
     {
 
         public DataContext Context { get; }
 
-        public LancamentoController(DataContext context)
+        public LancamentosController(DataContext context)
         {
             Context = context;
         }
